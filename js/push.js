@@ -133,7 +133,7 @@ function sendSubscriptionToServer(subscription) {
 
     // This example uses the new fetch API. This is not supported in all
     // browsers yet.
-    return fetch('http://183.109.92.223/profile/subscription', {
+    return fetch('http://183.109.92.223:8080/profile/subscription', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
