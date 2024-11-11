@@ -9,7 +9,7 @@
 
 $(function () {
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(initialiseState);
+        navigator.serviceWorker.register('/push-myou/sw.js').then(initialiseState);
     } else {
         console.warn('Service workers are not supported in this browser.');
     }
